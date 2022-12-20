@@ -11,6 +11,7 @@
 		4B772E2F29511312006FFB6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B772E2E29511312006FFB6D /* ContentView.swift */; };
 		4B772E3129511313006FFB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B772E3029511313006FFB6D /* Assets.xcassets */; };
 		4B772E3429511313006FFB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B772E3329511313006FFB6D /* Preview Assets.xcassets */; };
+		4B772E3C295118AF006FFB6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B772E3B295118AF006FFB6D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4B772E2E29511312006FFB6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B772E3029511313006FFB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B772E3329511313006FFB6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B772E3B295118AF006FFB6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4B772E2B29511312006FFB6D /* Recipe App */ = {
 			isa = PBXGroup;
 			children = (
+				4B772E3A29511890006FFB6D /* Helpers */,
 				4B772E2C29511312006FFB6D /* Recipe_AppApp.swift */,
 				4B772E2E29511312006FFB6D /* ContentView.swift */,
 				4B772E3029511313006FFB6D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				4B772E3329511313006FFB6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B772E3A29511890006FFB6D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B772E3B295118AF006FFB6D /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B772E2F29511312006FFB6D /* ContentView.swift in Sources */,
+				4B772E3C295118AF006FFB6D /* Extensions.swift in Sources */,
 				4B772E2D29511312006FFB6D /* Recipe_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
